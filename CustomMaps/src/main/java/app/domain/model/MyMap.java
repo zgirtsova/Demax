@@ -12,4 +12,6 @@ public interface MyMap<K, V> extends Serializable {
     boolean contains(K key);
 
     boolean remove(K key);
+
+    Map<K, V> getMyMap();
 }

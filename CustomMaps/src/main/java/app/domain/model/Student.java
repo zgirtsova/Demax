@@ -12,12 +12,12 @@ public class Student
 {
     public static void main(String [] args)
     {
-        HashMap<Integer, String> map = null;
+        MyMap<Integer, String> map = null;
         try
         {
             FileInputStream fis = new FileInputStream("hashmap.ser");
             ObjectInputStream ois = new ObjectInputStream(fis);
-            map = (HashMap) ois.readObject();
+            map = (MyMap) ois.readObject();
             ois.close();
             fis.close();
         }catch(IOException ioe)
@@ -31,13 +31,14 @@ public class Student
             return;
         }
         System.out.println("Deserialized HashMap..");
-        // Display content using Iterator
-        Set set = map.entrySet();
+         // Display content using Iterator
+        Set set = map.getMyMap().entrySet();
         Iterator iterator = set.iterator();
         while(iterator.hasNext()) {
             Map.Entry mentry = (Map.Entry)iterator.next();
             System.out.print("key: "+ mentry.getKey() + " & Value: ");
             System.out.println(mentry.getValue());
         }
+
     }
 }
