@@ -8,21 +8,15 @@ public class HashMapImpl<K, V> {
 
     private int Hashing(int hashCode) {
         int location = hashCode % capacity;
-        System.out.println("Location:"+location);
+        System.out.println("Location: " + location);
         return location;
     }
 
     public int size() {
-        // TODO Auto-generated method stub
+
         return this.size;
     }
 
-    public boolean isEmpty() {
-        if(this.size == 0) {
-            return true;
-        }
-        return false;
-    }
 
     public boolean containsKey(Object key) {
         if(key == null) {

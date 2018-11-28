@@ -3,6 +3,7 @@ package app.terminal;
 import app.domain.javalib.JLibImpl;
 import app.domain.javalib.JLibMap;
 import app.domain.nojavalib.NoJLibMap;
+import app.io.BufferReader;
 import com.google.gson.Gson;
 
 import java.io.*;
@@ -35,71 +36,39 @@ public class Terminal {
         jLibMap.saveMap();
 
         //Retrieve Map from file
-        JLibMap<String, Object> newMap = readMapFromFile();
+        JLibMap<String, Object> newJLibMap = JLibImpl.readMapFromFile();
 
         // List items in Map
-        listItemsFromMap(newMap);
+        JLibImpl.listItemsJLibMap(newJLibMap);
+
+
+
 
 
 
         /*
          * Implement a) without the standard language libraries
          * (e.g. in Java do not use any of the standard provided map implementations); 
+         *
          */
 
 
         // Create and fill
-        NoJLibMap<String, Object> map = new NoJLibMap<>();
+        NoJLibMap<String, Object> noJLibMap = new NoJLibMap<>();
 
-        map.put("1", "May be work?");
-        map.put("2", "May be I am working?");
-        map.put("3", "Or may be I am not working?");
-
-
-        // Save to file
-        //map.saveMap();
-
-        Gson gson = new Gson();
-        String json = gson.toJson(map);
-        System.out.println(json);
-        NoJLibMap<String, Object> map2 = gson.fromJson(json, NoJLibMap.class);
-        System.out.println();
-
-    }
-    private static JLibMap<String, Object> readMapFromFile() {
+        noJLibMap.put("1", "May be I work?");
+        noJLibMap.put("2", "May be I am working?");
+        noJLibMap.put("3", "Or may be I am not working?");
 
 
-        Map<String, Object> map = null;
-        try {
-            FileInputStream fis = new FileInputStream("hashmap.ser");
-            ObjectInputStream ois = new ObjectInputStream(fis);
-            map = (Map) ois.readObject();
-            ois.close();
-            fis.close();
-        } catch (IOException ioe) {
-            ioe.printStackTrace();
-            return null;
-        } catch (ClassNotFoundException c) {
-            System.out.println("Class not found");
-            c.printStackTrace();
-            return null;
-        }
-        System.out.println("Deserialized HashMap..");
+        // Save to file and return String
+        String savedMap = noJLibMap.saveMap();
+        System.out.println("The serialized object is " + noJLibMap.saveMap());
 
 
-        JLibMap<String, Object> theMap = new JLibImpl<>(map);
+        //Retrieve Map from file
+        NoJLibMap<String, Object> map2 = NoJLibMap.readMapFromFile("filename.txt");
 
-        return theMap;
-    }
-    private static void listItemsFromMap(JLibMap<String, Object> map) {
-        // Display content using Iterator
-        Set set = map.getInnerMap().entrySet();
-        Iterator iterator = set.iterator();
-        while (iterator.hasNext()) {
-            Map.Entry mentry = (Map.Entry) iterator.next();
-            System.out.print("key: " + mentry.getKey() + " & Value: ");
-            System.out.println(mentry.getValue());
-        }
     }
 
 }
