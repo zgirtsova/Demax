@@ -3,33 +3,64 @@ package app.terminal;
 import app.domain.model.MapImpl;
 import app.domain.model.MyMap;
 
-import java.io.FileOutputStream;
-import java.io.IOException;
-import java.io.ObjectOutputStream;
+import java.io.*;
+import java.util.HashMap;
+import java.util.Iterator;
+import java.util.Map;
+import java.util.Set;
 
 public class Terminal {
 
     public static void run() {
 
-        MyMap<Integer, String> theMap = new MapImpl<>();
-        theMap.put(1, "May be I am working?");
-        theMap.put(2, "May be I am working?");
-        theMap.put(3, "May be I am working?");
-        theMap.put(1, "May be I am not working?");
+        MyMap<String, Object> theMap = new MapImpl<>(new HashMap<>());
 
-        try
-        {
-            FileOutputStream fos =
-                    new FileOutputStream("hashmap.ser");
-            ObjectOutputStream oos = new ObjectOutputStream(fos);
-            oos.writeObject(theMap);
-            oos.close();
-            fos.close();
-            System.out.printf("Serialized HashMap data is saved in hashmap.ser");
-        }catch(IOException ioe)
-        {
-            ioe.printStackTrace();
-        }
+        theMap.put("1", "May be I am working?");
+        theMap.put("2", "May be I am working?");
+        theMap.put("3", "May be I am working?");
+        theMap.put("4", "May be I am not working?");
+
+        theMap.saveMap();
+
+        MyMap<String, Object> newMap = readMapFromFile();
+
+        listItemsFromMap(newMap);
 
     }
+    private static MyMap<String, Object> readMapFromFile() {
+
+
+        Map<String, Object> map = null;
+        try {
+            FileInputStream fis = new FileInputStream("hashmap.ser");
+            ObjectInputStream ois = new ObjectInputStream(fis);
+            map = (Map) ois.readObject();
+            ois.close();
+            fis.close();
+        } catch (IOException ioe) {
+            ioe.printStackTrace();
+            return null;
+        } catch (ClassNotFoundException c) {
+            System.out.println("Class not found");
+            c.printStackTrace();
+            return null;
+        }
+        System.out.println("Deserialized HashMap..");
+
+
+        MyMap<String, Object> theMap = new MapImpl<>(map);
+
+        return theMap;
+    }
+    private static void listItemsFromMap(MyMap<String, Object> map) {
+        // Display content using Iterator
+        Set set = map.getMyMap().entrySet();
+        Iterator iterator = set.iterator();
+        while (iterator.hasNext()) {
+            Map.Entry mentry = (Map.Entry) iterator.next();
+            System.out.print("key: " + mentry.getKey() + " & Value: ");
+            System.out.println(mentry.getValue());
+        }
+    }
+
 }

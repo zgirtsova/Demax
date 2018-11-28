@@ -14,4 +14,7 @@ public interface MyMap<K, V> extends Serializable {
     boolean remove(K key);
 
     Map<K, V> getMyMap();
+
+    void saveMap();
+
 }

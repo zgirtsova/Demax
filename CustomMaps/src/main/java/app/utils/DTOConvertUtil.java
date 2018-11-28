@@ -1,4 +1,4 @@
-package app.domain.dto;
+package app.utils;
 
 import org.modelmapper.ExpressionMap;
 import org.modelmapper.ModelMapper;
