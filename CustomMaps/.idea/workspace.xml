@@ -1,19 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6c074bda-2259-4571-8813-3a2d24177622" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/app/io/BufferReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/text.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/domain/javalib/JLibImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/domain/javalib/JLibImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/domain/nojavalib/NoJLibMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/domain/nojavalib/NoJLibMap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/domain/nojavalibhash/HashMapImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/domain/nojavalibhash/HashMapImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/terminal/Terminal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/terminal/Terminal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/app/domain/javalib/JLibImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/app/domain/javalib/JLibImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/app/domain/nojavalib/NoJLibMap.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/app/domain/nojavalib/NoJLibMap.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/app/domain/nojavalibhash/HashMapImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/app/domain/nojavalibhash/HashMapImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/app/terminal/Terminal.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/app/terminal/Terminal.class" afterDir="false" />
-    </list>
+    <list default="true" id="6c074bda-2259-4571-8813-3a2d24177622" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -119,8 +107,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/app/domain/javalib/JLibImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="47" column="34" selection-start-line="47" selection-start-column="34" selection-end-line="47" selection-end-column="34" />
+            <state relative-caret-position="195">
+              <caret line="42" column="27" lean-forward="true" selection-start-line="42" selection-start-column="27" selection-end-line="42" selection-end-column="27" />
               <folding>
                 <element signature="method#put#0;class#JLibImpl#0" />
                 <element signature="method#remove#0;class#JLibImpl#0" />
@@ -295,7 +283,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543409721284" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543410138714" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -407,12 +395,12 @@
       <updated>1543312771750</updated>
       <workItem from="1543312774932" duration="2832000" />
       <workItem from="1543318575296" duration="1813000" />
-      <workItem from="1543387865114" duration="17551000" />
+      <workItem from="1543387865114" duration="17970000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22196000" />
+    <option name="totallyTimeSpent" value="22615000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="353" y="252" width="1382" height="744" extended-state="0" />
@@ -427,7 +415,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32901135" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.23089431" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.23089431" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.21463415" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -755,8 +743,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/app/domain/javalib/JLibImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="47" column="34" selection-start-line="47" selection-start-column="34" selection-end-line="47" selection-end-column="34" />
+        <state relative-caret-position="195">
+          <caret line="42" column="27" lean-forward="true" selection-start-line="42" selection-start-column="27" selection-end-line="42" selection-end-column="27" />
           <folding>
             <element signature="method#put#0;class#JLibImpl#0" />
             <element signature="method#remove#0;class#JLibImpl#0" />
