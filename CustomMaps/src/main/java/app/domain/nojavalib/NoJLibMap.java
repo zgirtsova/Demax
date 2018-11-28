@@ -1,26 +1,17 @@
 package app.domain.nojavalib;
 
+import com.google.gson.Gson;
+
 import java.util.Arrays;
 import java.util.HashSet;
 import java.util.Set;
 
-public class MyMap<K, V> {
+public class NoJLibMap<K, V> {
     private int size;
     private int DEFAULT_CAPACITY = 16;
     @SuppressWarnings("unchecked")
     private MyEntry<K, V>[] values = new MyEntry[DEFAULT_CAPACITY];
 
-
-    public V get(K key) {
-        for (int i = 0; i < size; i++) {
-            if (values[i] != null) {
-                if (values[i].getKey().equals(key)) {
-                    return values[i].getValue();
-                }
-            }
-        }
-        return null;
-    }
 
     public void put(K key, V value) {
         boolean insert = true;
@@ -36,26 +27,42 @@ public class MyMap<K, V> {
         }
     }
 
-    private void ensureCapa() {
-        if (size == values.length) {
-            int newSize = values.length * 2;
-            values = Arrays.copyOf(values, newSize);
+    public V get(K key) {
+        for (int i = 0; i < size; i++) {
+            if (values[i] != null) {
+                if (values[i].getKey().equals(key)) {
+                    return values[i].getValue();
+                }
+            }
         }
+        return null;
+    }
+
+    public boolean contains(K key) {
+        for (int i = 0; i < size; i++) {
+            if (values[i].getKey().equals(key)) {
+                return true;
+            }
+        }
+        return false;
+    }
+
+    public boolean remove(K key) {
+        for (int i = 0; i < size; i++) {
+            if (values[i].getKey().equals(key)) {
+                values[i] = null;
+                size--;
+                condenseArray(i);
+                return true;
+            }
+        }
+        return false;
     }
 
     public int size() {
         return size;
     }
 
-    public void remove(K key) {
-        for (int i = 0; i < size; i++) {
-            if (values[i].getKey().equals(key)) {
-                values[i] = null;
-                size--;
-                condenseArray(i);
-            }
-        }
-    }
 
     private void condenseArray(int start) {
         for (int i = start; i < size; i++) {
@@ -69,5 +76,18 @@ public class MyMap<K, V> {
             set.add(values[i].getKey());
         }
         return set;
+    }
+
+    private void ensureCapa() {
+        if (size == values.length) {
+            int newSize = values.length * 2;
+            values = Arrays.copyOf(values, newSize);
+        }
+    }
+
+    public void saveMap () {
+        Gson gson = new Gson();
+        String json = gson.toJson(this);
+        System.out.println(json);
     }
 }

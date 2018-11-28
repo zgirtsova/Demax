@@ -3,7 +3,7 @@ package app.domain.javalib;
 import java.io.Serializable;
 import java.util.Map;
 
-public interface MyMap<K, V> extends Serializable {
+public interface JLibMap<K, V> extends Serializable {
     
     void put(K key, V value);
 
@@ -13,7 +13,7 @@ public interface MyMap<K, V> extends Serializable {
 
     boolean remove(K key);
 
-    Map<K, V> getMyMap();
+    Map<K, V> getInnerMap();
 
     void saveMap();
 

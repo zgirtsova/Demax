@@ -5,44 +5,41 @@ import java.io.IOException;
 import java.io.ObjectOutputStream;
 import java.util.Map;
 
-public class MapImpl<K, V> implements MyMap<K, V> {
+public class JLibImpl<K, V> implements JLibMap<K, V> {
 
-//    private K key;
-//
-//    private V value;
 
-    private Map<K, V> myMap;
+    private Map<K, V> innerMap;
 
 
 
-    public MapImpl(Map<K, V> outerMap) {
-        this.myMap = outerMap;
+    public JLibImpl(Map<K, V> outerMap) {
+        this.innerMap = outerMap;
     }
 
-    public Map<K, V> getMyMap() {
-        return myMap;
+    public Map<K, V> getInnerMap() {
+        return innerMap;
     }
 
     @Override
     public void put(K key, V value) {
-        this.myMap.put(key, value);
+        this.innerMap.put(key, value);
 
     }
 
     @Override
     public Object get(K key) {
-        return this.myMap.get(key);
+        return this.innerMap.get(key);
     }
 
     @Override
     public boolean contains(K key) {
-        return this.myMap.containsKey(key);
+        return this.innerMap.containsKey(key);
     }
 
     @Override
     public boolean remove(K key) {
-        if (this.myMap.containsKey(key)) {
-            this.myMap.remove(key);
+        if (this.innerMap.containsKey(key)) {
+            this.innerMap.remove(key);
             return true;
         } else
             return false;
@@ -54,7 +51,7 @@ public class MapImpl<K, V> implements MyMap<K, V> {
             FileOutputStream fos =
                     new FileOutputStream("hashmap.ser");
             ObjectOutputStream oos = new ObjectOutputStream(fos);
-            oos.writeObject(this.myMap);
+            oos.writeObject(this.innerMap);
             oos.close();
             fos.close();
             System.out.printf("Serialized HashMap data is saved in hashmap.ser");
