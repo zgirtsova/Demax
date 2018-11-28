@@ -1,4 +1,4 @@
-package app.domain.model;
+package app.domain.javalib;
 
 import java.io.Serializable;
 import java.util.Map;

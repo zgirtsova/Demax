@@ -1,7 +1,7 @@
 package app.terminal;
 
-import app.domain.model.MapImpl;
-import app.domain.model.MyMap;
+import app.domain.javalib.MapImpl;
+import app.domain.javalib.MyMap;
 
 import java.io.*;
 import java.util.HashMap;
@@ -13,14 +13,32 @@ public class Terminal {
 
     public static void run() {
 
+        /**
+         *  a) Implement the persistent storage – you may use standard
+         *  language libraries (e.g. a map implementation in Java).
+         *  The storage must be able to survive application restarts;
+         *
+         *  Create, Save and Retrieve Custom Map
+         */
+
+
         MyMap<String, Object> theMap = new MapImpl<>(new HashMap<>());
 
         theMap.put("1", "May be I am working?");
         theMap.put("2", "May be I am working?");
         theMap.put("3", "May be I am working?");
-        theMap.put("4", "May be I am not working?");
+        theMap.put("4", "Or may be I am not working?");
 
         theMap.saveMap();
+
+
+
+
+
+
+
+
+
 
         MyMap<String, Object> newMap = readMapFromFile();
 

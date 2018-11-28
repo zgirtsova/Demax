@@ -1,11 +1,8 @@
-package app.domain.model;
-
-import com.google.gson.annotations.Expose;
+package app.domain.javalib;
 
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.ObjectOutputStream;
-import java.util.HashMap;
 import java.util.Map;
 
 public class MapImpl<K, V> implements MyMap<K, V> {
