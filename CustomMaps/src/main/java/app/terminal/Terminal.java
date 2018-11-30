@@ -1,16 +1,12 @@
 package app.terminal;
 
-import app.domain.javalib.JLibImpl;
-import app.domain.javalib.JLibMap;
-import app.domain.nojavalib.NoJLibMap;
-import app.io.BufferReader;
-import com.google.gson.Gson;
+import app.constants.Paths;
+import app.domain.javalibmap.JLibImpl;
+import app.domain.javalibmap.JLibMap;
+import app.domain.nojavalibmap.NoJLibMap;
+import app.domain.oopdesign.Stapler;
 
-import java.io.*;
 import java.util.HashMap;
-import java.util.Iterator;
-import java.util.Map;
-import java.util.Set;
 
 public class Terminal {
 
@@ -23,27 +19,21 @@ public class Terminal {
          *
          *  Create, Save and Retrieve Custom Map
          */
-
-        // Create and fill
+         //  Create and fill
         JLibMap<String, Object> jLibMap = new JLibImpl<>(new HashMap<>());
 
         jLibMap.put("1", "May be I am working?");
         jLibMap.put("2", "May be I am working?");
         jLibMap.put("3", "Or may be I am not working?");
-        System.out.println(jLibMap.remove("2"));
 
-        // Save to file
+         //  Save to file
         jLibMap.saveMap();
 
-        //Retrieve Map from file
+         //  Retrieve Map from file
         JLibMap<String, Object> newJLibMap = JLibImpl.readMapFromFile();
 
-        // List items in Map
+         //  List items in Map
         JLibImpl.listItemsJLibMap(newJLibMap);
-
-
-
-
 
 
         /*
@@ -51,9 +41,7 @@ public class Terminal {
          * (e.g. in Java do not use any of the standard provided map implementations); 
          *
          */
-
-
-        // Create and fill
+         // Create and fill
         NoJLibMap<String, Object> noJLibMap = new NoJLibMap<>();
 
         noJLibMap.put("1", "May be I work?");
@@ -61,13 +49,23 @@ public class Terminal {
         noJLibMap.put("3", "Or may be I am not working?");
 
 
-        // Save to file and return String
+         // Save to file and return String
         String savedMap = noJLibMap.saveMap();
         System.out.println("The serialized object is " + noJLibMap.saveMap());
 
 
-        //Retrieve Map from file
-        NoJLibMap<String, Object> map2 = NoJLibMap.readMapFromFile("filename.txt");
+         //Retrieve Map from file
+        NoJLibMap<String, Object> map2 = NoJLibMap.readMapFromFile(Paths.NOJLIBMAP_FILE_NAME);
+
+        /*
+         * OOP Design
+         * Design and implement an object model of the object in the following picture.
+         * Please describe the context, in which the object model should be applied.
+         *
+         */
+        Stapler stapler = new Stapler();
+        stapler.refill();
+        stapler.stap();
 
     }
 
