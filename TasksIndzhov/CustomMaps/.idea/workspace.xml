@@ -1,0 +1,742 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6c074bda-2259-4571-8813-3a2d24177622" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../20181129_105745.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../20181129_105930.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CustomMap/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CustomMap/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CustomMap/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CustomMap/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CustomMap/CustomMap.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CustomMap/D:\hashmap.ser" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CustomMap/out/production/CustomMap/MapImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CustomMap/out/production/CustomMap/MyMap.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CustomMap/out/production/CustomMap/PersistHashMap.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CustomMap/out/production/CustomMap/io/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CustomMap/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CustomMaps/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CustomMaps/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CustomMaps/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CustomMaps/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CustomMaps/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CustomMaps/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CustomMaps/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CustomMaps/D:\hashmap.ser" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CustomMaps/custommap.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CustomMaps/hashmap.ser" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CustomMaps/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CustomMaps/src/main/java/app/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CustomMaps/src/main/java/app/constants/Paths.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CustomMaps/src/main/java/app/domain/javalibmap/JLibImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CustomMaps/src/main/java/app/domain/javalibmap/JLibMap.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CustomMaps/src/main/java/app/domain/nojavalibmap/MyEntry.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CustomMaps/src/main/java/app/domain/nojavalibmap/NoJLibMap.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CustomMaps/src/main/java/app/domain/oopdesign/Colors.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CustomMaps/src/main/java/app/domain/oopdesign/Stapler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CustomMaps/src/main/java/app/io/BufferReader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CustomMaps/src/main/java/app/terminal/Terminal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CustomMaps/src/main/resources/filename.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CustomMaps/src/main/resources/hashmap.ser" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CustomMaps/target/classes/META-INF/firstapp.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CustomMaps/target/classes/app/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CustomMaps/target/classes/app/constants/Paths.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CustomMaps/target/classes/app/domain/javalibmap/JLibImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CustomMaps/target/classes/app/domain/javalibmap/JLibMap.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CustomMaps/target/classes/app/domain/nojavalibmap/MyEntry.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CustomMaps/target/classes/app/domain/nojavalibmap/NoJLibMap.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CustomMaps/target/classes/app/domain/oopdesign/Colors.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CustomMaps/target/classes/app/domain/oopdesign/Stapler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CustomMaps/target/classes/app/io/BufferReader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CustomMaps/target/classes/app/terminal/Terminal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CustomMaps/target/classes/filename.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CustomMaps/target/classes/hashmap.ser" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Project Doc.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Tasks.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Zadachi.docx" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="postgres@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="postgres@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="postgres@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="postgres: database" type="162271b6:PgImplModel$Database" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="postgres@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="postgres: database" type="162271b6:PgImplModel$Database" />
+        <item name="access methods" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="postgres@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="postgres: database" type="162271b6:PgImplModel$Database" />
+        <item name="extensions" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="postgres@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="roles" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/app/domain/nojavalibmap/MyEntry.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
+              <folding>
+                <element signature="method#MyEntry#0;class#MyEntry#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/app/domain/nojavalibmap/NoJLibMap.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="690">
+              <caret line="95" column="60" selection-start-line="95" selection-start-column="60" selection-end-line="95" selection-end-column="60" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#put#0;class#NoJLibMap#0" />
+                <element signature="method#get#0;class#NoJLibMap#0" />
+                <element signature="method#contains#0;class#NoJLibMap#0" />
+                <element signature="method#remove#0;class#NoJLibMap#0" />
+                <element signature="method#condenseArray#0;class#NoJLibMap#0" />
+                <element signature="method#ensureCapa#0;class#NoJLibMap#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/app/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/73eeddc8-469f-4b77-9771-b047d96856c6/console.sql">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="das://73eeddc8-469f-4b77-9771-b047d96856c6/role/postgres">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/app/constants/Paths.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="102" selection-start-line="5" selection-start-column="102" selection-end-line="5" selection-end-column="102" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/app/terminal/Terminal.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="375">
+              <caret line="25" column="41" selection-start-line="25" selection-start-column="41" selection-end-line="25" selection-end-column="41" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/PersistHashMap.java" />
+        <option value="$PROJECT_DIR$/src/main/java/MapImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/parser/MapParser.java" />
+        <option value="$PROJECT_DIR$/src/main/java/app/domain/ds.java" />
+        <option value="$PROJECT_DIR$/hashmap.ser" />
+        <option value="$PROJECT_DIR$/src/main/java/app/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/app/domain/model/Details.java" />
+        <option value="$PROJECT_DIR$/src/main/java/app/domain/model/MyMap.java" />
+        <option value="$PROJECT_DIR$/src/main/java/app/domain/model/Student.java" />
+        <option value="$PROJECT_DIR$/src/main/java/app/domain/model/MapImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/app/io/FileIO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/app/io/FileInOut.java" />
+        <option value="$PROJECT_DIR$/src/main/java/app/domain/nojavalib/MyMap.java" />
+        <option value="$PROJECT_DIR$/src/main/java/app/domain/nojavalibhasho1/Entry.java" />
+        <option value="$PROJECT_DIR$/src/main/java/app/domain/nojavalibhasho1/MyMap.java" />
+        <option value="$PROJECT_DIR$/src/main/java/app/domain/nojavalib/Main.java" />
+        <option value="$PROJECT_DIR$/filename.txt" />
+        <option value="$PROJECT_DIR$/src/main/java/app/io/BuffReader.java" />
+        <option value="$PROJECT_DIR$/src/main/java/app/io/BufferReader.java" />
+        <option value="$PROJECT_DIR$/src/main/java/app/domain/javalib/JLibImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/app/domain/nojavalib/MyEntry.java" />
+        <option value="$PROJECT_DIR$/src/main/java/app/domain/nojavalib/NoJLibMap.java" />
+        <option value="$PROJECT_DIR$/src/main/java/app/domain/oopdesign/Colors.java" />
+        <option value="$PROJECT_DIR$/src/main/java/app/domain/oopdesign/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/app/domain/oopdesign/Stapler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/app/domain/javalibmap/JLibImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/app/domain/nojavalibhash/Entry.java" />
+        <option value="$PROJECT_DIR$/src/main/java/app/domain/nojavalibhash/HashMapImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/app/domain/nojavalibmap/MyEntry.java" />
+        <option value="$PROJECT_DIR$/src/main/java/app/domain/nojavalibmap/NoJLibMap.java" />
+        <option value="$PROJECT_DIR$/src/main/java/app/terminal/Terminal.java" />
+        <option value="$PROJECT_DIR$/src/main/java/app/constants/Paths.java" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/73eeddc8-469f-4b77-9771-b047d96856c6/console.sql" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="321" />
+    <option name="y" value="235" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="custommap" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CustomMaps" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="custommap" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CustomMaps" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="custommap" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CustomMaps" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="custommap" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CustomMaps" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="custommap" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CustomMaps" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="custommap" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CustomMaps" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="constants" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="postgresql" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543677570136" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="app.domain.dto" />
+      <recent name="app.domain" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Details" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="app.utils.Details" />
+      <module name="firstapp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="app.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HashMapImpl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="app.domain.nojavalibhash.HashMapImpl" />
+      <module name="firstapp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="app.domain.nojavalibhash.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="app.domain.oopdesign.Main" />
+      <module name="firstapp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="app.domain.oopdesign.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="app.Main" />
+      <module name="firstapp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="app.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="app.domain.nojavalib.Main" />
+      <module name="firstapp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="app.domain.nojavalib.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Student" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="app.utils.Student" />
+      <module name="firstapp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="app.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.HashMapImpl" />
+        <item itemvalue="Application.Student" />
+        <item itemvalue="Application.Details" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6c074bda-2259-4571-8813-3a2d24177622" name="Default Changelist" comment="" />
+      <created>1543312771750</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1543312771750</updated>
+      <workItem from="1543312774932" duration="2832000" />
+      <workItem from="1543318575296" duration="1813000" />
+      <workItem from="1543387865114" duration="17970000" />
+      <workItem from="1543476279551" duration="8088000" />
+      <workItem from="1543492962219" duration="11000" />
+      <workItem from="1543677242705" duration="764000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="31478000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1931378" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.398374" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.31209505" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.21463415" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="11" />
+      <window_info anchor="bottom" id="Database Changes" order="12" />
+      <window_info anchor="bottom" id="Version Control" order="13" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info active="true" anchor="right" id="Database" order="6" visible="true" weight="0.2434975" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Designer" order="0" />
+      <window_info id="Image Layers" order="1" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="UI Designer" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.25" />
+      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Spring" order="0" />
+      <window_info anchor="bottom" id="Terminal" order="1" />
+      <window_info anchor="bottom" id="Docker" order="2" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="4" />
+      <window_info anchor="bottom" id="Database Changes" order="5" />
+      <window_info anchor="bottom" id="Version Control" order="6" />
+      <window_info anchor="bottom" id="Message" order="7" />
+      <window_info anchor="bottom" id="Find" order="8" />
+      <window_info anchor="bottom" id="Run" order="9" visible="true" weight="0.22852512" />
+      <window_info anchor="bottom" id="Debug" order="10" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="11" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="12" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="13" />
+      <window_info anchor="right" id="Maven" order="0" />
+      <window_info anchor="right" id="Palette" order="1" />
+      <window_info anchor="right" id="Capture Analysis" order="2" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="right" id="Palette&#9;" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Bean Validation" order="6" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="7" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="8" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="9" weight="0.25" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/app/utils/Student.java</url>
+          <line>17</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/hasmap.ser" />
+    <entry file="file://$PROJECT_DIR$/hashmap.txt" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/app/ds.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/app/domain/ds.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/parser/MapParser.java" />
+    <entry file="file://$PROJECT_DIR$/hashmap.ser">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/app/PersistHashMap.java" />
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="53" selection-start-line="53" selection-end-line="53" />
+          <folding>
+            <element signature="n#dependency#0;n#dependencies#0;n#project#0;n#!!top" />
+            <element signature="n#dependency#1;n#dependencies#0;n#project#0;n#!!top" />
+            <element signature="n#dependency#2;n#dependencies#0;n#project#0;n#!!top" />
+            <element signature="n#dependency#3;n#dependencies#0;n#project#0;n#!!top" />
+            <element signature="n#dependency#4;n#dependencies#0;n#project#0;n#!!top" />
+            <element signature="n#dependency#5;n#dependencies#0;n#project#0;n#!!top" />
+            <element signature="n#dependency#6;n#dependencies#0;n#project#0;n#!!top" />
+            <element signature="n#dependency#7;n#dependencies#0;n#project#0;n#!!top" />
+            <element signature="n#dependency#8;n#dependencies#0;n#project#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/app/utils/Details.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/app/utils/Student.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/app/io/FileInOut.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/app/io/FileIO.java" />
+    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/util/Arrays.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="421">
+          <caret line="3179" column="26" selection-start-line="3179" selection-start-column="26" selection-end-line="3179" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/app/domain/nojavalibhasho1/Entry.java" />
+    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/lang/Object.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-412">
+          <caret line="99" column="22" selection-start-line="99" selection-start-column="22" selection-end-line="99" selection-end-column="22" />
+          <folding>
+            <element signature="e#5748#5749#0" expanded="true" />
+            <element signature="e#5784#5785#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/app/domain/nojavalib/Main.java" />
+    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/util/HashMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="474" column="11" selection-start-line="474" selection-start-column="11" selection-end-line="474" selection-end-column="11" />
+          <folding>
+            <element signature="e#19327#19328#0" expanded="true" />
+            <element signature="e#19410#19411#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/io/PrintWriter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="55" column="13" selection-start-line="55" selection-start-column="13" selection-end-line="55" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/filename.txt" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/app/io/BufferReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#readFile#0;class#BuffReader#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/io/ObjectOutputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="43" column="71" selection-start-line="43" selection-start-column="71" selection-end-line="43" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/app/utils/DTOConvertUtil.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/text.txt" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/app/domain/oopdesign/Colors.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/app/domain/nojavalibhasho1/MyMap.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/app/domain/oopdesign/Stapler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="8" column="28" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#Stapler#0;class#Stapler#0" />
+            <element signature="method#setRandomColor#0;class#Stapler#0" />
+            <element signature="e#1212#1213#0" expanded="true" />
+            <element signature="e#1252#1253#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/app/domain/oopdesign/Main.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/filename.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/hashmap.ser">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/app/domain/javalibmap/JLibImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="method#put#0;class#JLibImpl#0" />
+            <element signature="method#remove#0;class#JLibImpl#0" />
+            <element signature="method#saveMap#0;class#JLibImpl#0" />
+            <element signature="method#readMapFromFile#0;class#JLibImpl#0" />
+            <element signature="method#listItemsJLibMap#0;class#JLibImpl#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/app/domain/javalibmap/JLibMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="9" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/app/domain/nojavalibhash/Entry.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/app/domain/nojavalibhash/HashMapImpl.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/app/domain/nojavalibmap/MyEntry.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+          <folding>
+            <element signature="method#MyEntry#0;class#MyEntry#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/app/domain/nojavalibmap/NoJLibMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="690">
+          <caret line="95" column="60" selection-start-line="95" selection-start-column="60" selection-end-line="95" selection-end-column="60" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#put#0;class#NoJLibMap#0" />
+            <element signature="method#get#0;class#NoJLibMap#0" />
+            <element signature="method#contains#0;class#NoJLibMap#0" />
+            <element signature="method#remove#0;class#NoJLibMap#0" />
+            <element signature="method#condenseArray#0;class#NoJLibMap#0" />
+            <element signature="method#ensureCapa#0;class#NoJLibMap#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/app/terminal/Terminal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="41" selection-start-line="25" selection-start-column="41" selection-end-line="25" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/app/constants/Paths.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="102" selection-start-line="5" selection-start-column="102" selection-end-line="5" selection-end-column="102" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/app/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/73eeddc8-469f-4b77-9771-b047d96856c6/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="das://73eeddc8-469f-4b77-9771-b047d96856c6/role/postgres">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+  </component>
+</project>
