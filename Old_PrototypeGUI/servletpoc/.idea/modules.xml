@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/servletpoc.iml" filepath="$PROJECT_DIR$/.idea/servletpoc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/servletpoc.iml" filepath="$PROJECT_DIR$/servletpoc.iml" />
     </modules>
   </component>
 </project>

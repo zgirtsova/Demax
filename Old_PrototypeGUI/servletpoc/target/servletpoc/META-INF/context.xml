@@ -27,7 +27,7 @@
           username="postgres"
           password="postgres"
           driverClassName="org.postgresql.Driver"
-          url="jdbc:postgresql://localhost:5432/postgres?createDatabaseIfNotExist=true"
+          url="jdbc:postgresql://localhost:5432/TestBase?createDatabaseIfNotExist=true"
           maxTotal="60"
           maxIdle="20"
           validationQuery="select 1" />
